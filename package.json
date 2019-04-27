@@ -17,7 +17,9 @@
   },
   "devDependencies": {},
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "sass",
+    "scss"
   ],
   "license": "MIT",
   "scripts": {
@@ -27,7 +29,7 @@
     "format": "Get started formatting your code with Eslint, Prettier, and stylelint",
     "start": "yarn develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo 'Write tests! -> https://gatsby.dev/unit-testing'"
   },
   "repository": {
     "type": "git",
