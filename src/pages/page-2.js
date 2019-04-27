@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import Helmet from 'react-helmet';
 
 import Layout from 'components/Layout';
+import Container from 'components/Container';
 
 const SecondPage = () => {
   return (
@@ -10,9 +10,10 @@ const SecondPage = () => {
       <Helmet>
         <title>Page Two</title>
       </Helmet>
-      <h1>Page Two</h1>
-      <p>Welcome to page 2</p>
-      <Link to="/">Go back to the homepage</Link>
+      <Container>
+        <h1>Page Two</h1>
+        <p>Welcome to page 2</p>
+      </Container>
     </Layout>
   );
 };
