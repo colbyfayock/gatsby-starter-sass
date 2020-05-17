@@ -1,4 +1,4 @@
-# Gatsby Sass Starter
+# 👓 Gatsby Sass Starter
 
 Jumpstart your next Gatsby project with the power of Sass!
 
