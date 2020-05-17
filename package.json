@@ -4,16 +4,16 @@
   "version": "0.1.2",
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
-    "gatsby": "^2.19.43",
-    "gatsby-plugin-react-helmet": "^3.1.23",
-    "gatsby-plugin-resolve-src": "^2.0.0",
-    "gatsby-plugin-sass": "^2.1.30",
-    "gatsby-source-filesystem": "^2.1.55",
-    "node-sass": "^4.13.1",
+    "gatsby": "^2.21.33",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-resolve-src": "^2.1.0",
+    "gatsby-plugin-sass": "^2.3.1",
+    "gatsby-source-filesystem": "^2.3.3",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-helmet": "^5.2.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
   },
   "devDependencies": {},
   "keywords": [
@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
     "lint": "Get started linting your code with Eslint and stylelint",
     "format": "Get started formatting your code with Eslint, Prettier, and stylelint",
