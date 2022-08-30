@@ -7,7 +7,7 @@
     "gatsby": "^4.7.1",
     "gatsby-plugin-react-helmet": "^5.7.0",
     "gatsby-plugin-resolve-src": "^2.1.0",
-    "gatsby-plugin-sass": "^5.7.0",
+    "gatsby-plugin-sass": "^5.21.0",
     "gatsby-source-filesystem": "^4.7.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
